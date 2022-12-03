@@ -9,16 +9,16 @@ package com.anon;
  * @author anonh
  */
 public class Customer {
-    private String name;
-    private double creditLimit = 989;
-    private String email;
-
-    public double getCreditLimit() {
-        return creditLimit;
+    public String name;
+    public double creditLimit;
+    public String email;
+    
+//    constructor
+    public Customer(String name, double creditLimit, String email) {
+        this.name = name;
+        this.creditLimit = creditLimit;
+        this.email = email;
     }
-    
-    
-    
-    
-    
+
+
 }

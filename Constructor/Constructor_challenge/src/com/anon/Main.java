@@ -14,9 +14,12 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Customer obj1 = new Customer();
+        Customer obj1 = new Customer("Anon Bianco", 585, "anonh7@gmail.com");
         
-        System.out.println("The credit score is " + obj1.getCreditLimit());
+        
+        System.out.println("The customer name is Mr." + obj1.name);
+        System.out.println("The credit limit of Mr." + obj1.name + " is " + obj1.creditLimit );
+        System.out.println("And his email id is " + obj1.email);
     }
     
 }
