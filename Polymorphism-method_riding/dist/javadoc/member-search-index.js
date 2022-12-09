@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.anon","c":"Apple","l":"Apple()","url":"%3Cinit%3E()"},{"p":"com.anon","c":"Apple","l":"eat()"},{"p":"com.anon","c":"Orange","l":"eat()"},{"p":"com.anon","c":"Main","l":"Main()","url":"%3Cinit%3E()"},{"p":"com.anon","c":"Main","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"com.anon","c":"Orange","l":"Orange()","url":"%3Cinit%3E()"}]
